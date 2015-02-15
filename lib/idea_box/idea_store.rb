@@ -44,4 +44,6 @@ class IdeaStore
       database['ideas'][id] = data
     end
   end
+
+
 end

@@ -2,7 +2,9 @@
 ideas:
 - title: Nepal
   description: Nepal is landlock country
+  rank: 4
 - title: asdf
   description: asdfsadfsadfsa
+  rank: 1
 - title: helo bro
   description: wht's up ?

@@ -15,6 +15,11 @@
       <%= idea.description %>
     </li>
     <a href="/<%= id %>/edit">Edit</a>
+    <form action="/<%= id%>/like" method="POST" style="display=inline;">
+      <input type="submit" value="+">
+    </form>
+
+
     <form action="/<%= id %>" method="POST">
       <input type="hidden" value="delete" name="_method">
       <input type="submit" value="Delete" >
