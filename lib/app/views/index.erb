@@ -9,18 +9,18 @@
 </form>
 <h2>Existing idea</h2>
 <ul>
-  <% ideas.each_with_index do |idea, id|%>
+  <% ideas.each_with_index do |idea|%>
     <li>
-      <%= idea.title %>(<%= id %>)<br>
+      <%= idea.title %>(<%= idea.id %>)<br>
       <%= idea.description %>
     </li>
-    <a href="/<%= id %>/edit">Edit</a>
-    <form action="/<%= id%>/like" method="POST" style="display=inline;">
+    <a href="/<%= idea.id %>/edit">Edit</a>
+    <form action="/<%= idea.id%>/like" method="POST" style="display=inline;">
       <input type="submit" value="+">
     </form>
 
 
-    <form action="/<%= id %>" method="POST">
+    <form action="/<%= idea.id %>" method="POST">
       <input type="hidden" value="delete" name="_method">
       <input type="submit" value="Delete" >
     </form>

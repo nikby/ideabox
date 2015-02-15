@@ -1,10 +1,11 @@
 ---
 ideas:
-- title: Nepal
-  description: Nepal is landlock country
+- title: Helo world
+  description: Hy pasa
+  rank: 5
+- title: nikesh
+  description: suwal
   rank: 4
-- title: asdf
-  description: asdfsadfsadfsa
-  rank: 1
-- title: helo bro
-  description: wht's up ?
+- title: Nikesh suwal
+  description: front end developer
+  rank: 6
